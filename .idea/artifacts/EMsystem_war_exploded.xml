@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="EMsystem:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="EMsystem" />
+          <element id="library" level="application" name="bootstrap" />
+          <element id="library" level="application" name="ie10-viewport-bug-workaround" />
+          <element id="library" level="application" name="html5shiv" />
+          <element id="library" level="application" name="respond" />
+          <element id="library" level="application" name="jquery" />
+          <element id="library" level="application" name="dashboard" />
+          <element id="library" level="application" name="holder" />
+          <element id="library" level="application" name="ie8-responsive-file-warning" />
+          <element id="library" level="application" name="ie-emulation-modes-warning" />
+          <element id="library" level="application" name="signin" />
+          <element id="library" level="application" name="offcanvas" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="EMsystem/web/Web3" />
+      <element id="javaee-facet-resources" facet="EMsystem/web/Web2" />
+      <element id="javaee-facet-resources" facet="EMsystem/web/Web" />
+    </root>
+  </artifact>
+</component>
