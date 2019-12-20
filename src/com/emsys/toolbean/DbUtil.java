@@ -2,6 +2,8 @@ package com.emsys.toolbean;
 import com.emsys.pojo.daiban;
 import com.emsys.pojo.gunali;
 import com.emsys.pojo.jiuyuan;
+import com.emsys.pojo.renwu;
+import com.google.gson.internal.$Gson$Preconditions;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -202,11 +204,43 @@ public class DbUtil {
             daiban g = new daiban();
             g.setJiuyuan_gonghao(gonghao);
             g.setNeirong(rs.getString("neirong"));
+            g.setZhuti(rs.getString("zhuti"));
             result.add(g);
         }
 
         return result;
     }
+
+    public List<renwu> chazhao_renwu(int gonghao) throws  ClassNotFoundException, SQLException {
+        String sql = "SELECT * FROM renwu where jiuyuan_gonghao=?";
+
+        PreparedStatement ptmt = this.conn.prepareStatement(sql);
+        ptmt.setInt(1, gonghao);
+        ResultSet rs = ptmt.executeQuery();
+        List<renwu> result = new ArrayList<>();
+        while (rs.next()) {
+            renwu g = new renwu();
+            g.setJiuyuan_gonghao(gonghao);
+            g.setX(rs.getInt("x"));
+            g.setY(rs.getInt("y"));
+            g.setMiaoshu(rs.getString("miaoshu"));
+            result.add(g);
+        }
+
+        return result;
+    }
+
+    public renwu shanchu_renwu(renwu r) throws ClassNotFoundException, SQLException {
+        String sql = "DELETE * FROM renwu where jiuyuan_gonghao=?";
+
+        PreparedStatement ptmt = this.conn.prepareStatement(sql);
+        ptmt.setInt(1, r.getJiuyuan_gonghao());
+
+        ptmt.execute();
+
+        return r;
+    }
+
 
 
 }

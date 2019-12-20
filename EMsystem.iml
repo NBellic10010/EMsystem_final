@@ -78,5 +78,12 @@
     <orderEntry type="library" name="bootstrap-combined.no-icons" level="application" />
     <orderEntry type="library" name="bootstrap-responsive" level="application" />
     <orderEntry type="library" name="font-awesome" level="application" />
+    <orderEntry type="library" name="prettify" level="application" />
+    <orderEntry type="library" name="bootstrap-combined.no-icons" level="application" />
+    <orderEntry type="library" name="bootstrap-responsive" level="application" />
+    <orderEntry type="library" name="font-awesome" level="application" />
+    <orderEntry type="library" name="sweetalert2.all" level="application" />
+    <orderEntry type="library" name="sweetalert2" level="application" />
+    <orderEntry type="library" name="core" level="application" />
   </component>
 </module>

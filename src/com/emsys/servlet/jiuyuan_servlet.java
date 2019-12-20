@@ -2,6 +2,7 @@ package com.emsys.servlet;
 
 import com.emsys.pojo.daiban;
 import com.emsys.pojo.jiuyuan;
+import com.emsys.pojo.renwu;
 import com.emsys.toolbean.DbUtil;
 
 import javax.servlet.ServletException;
@@ -24,7 +25,10 @@ public class jiuyuan_servlet extends HttpServlet {
         DbUtil db = new DbUtil();
         try {
             List<daiban> l = db.chazhao_daiban(gonghao);
+            List<renwu> l_r = db.chazhao_renwu(gonghao);
+            System.out.println(l.size());
             req.setAttribute("daiban_list", l);
+            req.setAttribute("renwu_list", l_r);
             req.getRequestDispatcher("/index_jiuyuan.jsp").forward(req, resp);
         } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();

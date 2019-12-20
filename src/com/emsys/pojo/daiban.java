@@ -3,6 +3,7 @@ package com.emsys.pojo;
 public class daiban {
     private int jiuyuan_gonghao;
     private String neirong;
+    private String zhuti;
 
     public int getJiuyuan_gonghao() {
         return jiuyuan_gonghao;
@@ -18,5 +19,13 @@ public class daiban {
 
     public void setNeirong(String neirong) {
         this.neirong = neirong;
+    }
+
+    public String getZhuti() {
+        return zhuti;
+    }
+
+    public void setZhuti(String zhuti) {
+        this.zhuti = zhuti;
     }
 }

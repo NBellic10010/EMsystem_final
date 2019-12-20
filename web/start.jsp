@@ -34,46 +34,57 @@
     <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+        body {
+            background-image: url("https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1592610894,1953140181&fm=15&gp=0.jpg");
+        }
+    </style>
 </head>
 
 <body>
 
 <div class="container">
-    <form class="form-signin" action="loginservlet" method="GET" role="form">
-        <h2 class="form-signin-heading">请登录</h2>
-        <div class="form-group">
-            <label for="gonghao" class="sr-only">工号</label>
-            <input type="text" id="gonghao" class="form-control"name="gonghao" placeholder="工号" value="1">
-        </div>
+    <div class="col col-sm-8">
 
-        <div class="form-group">
-            <label for="mima" class="sr-only">密码</label>
-            <input type="password" id="mima" class="form-control" name="mima" placeholder="密码" value="123">
-        </div>
+    </div>
+    <div class="col col-sm-4">
+        <form class="form-signin" action="loginservlet" method="GET" role="form">
+            <h2 class="form-signin-heading">请登录</h2>
+            <div class="form-group">
+                <label for="gonghao" class="sr-only">工号</label>
+                <input type="text" id="gonghao" class="form-control" name="gonghao" placeholder="工号" value="1">
+            </div>
 
-        <div class="form-group col-sm-offset-1">
-            <div class="row">
-                <div class="radio-inline col-sm-5">
-                    <label>
-                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option2"> 救援者
-                    </label>
-                </div>
-                <div class="radio-inline col-sm-5">
-                    <label>
-                        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option1" checked> 管理员
-                    </label>
+            <div class="form-group">
+                <label for="mima" class="sr-only">密码</label>
+                <input type="password" id="mima" class="form-control" name="mima" placeholder="密码" value="123">
+            </div>
+
+            <div class="form-group col-sm-offset-1">
+                <div class="row">
+                    <div class="radio-inline col-sm-5">
+                        <label>
+                            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option2"> 救援者
+                        </label>
+                    </div>
+                    <div class="radio-inline col-sm-5">
+                        <label>
+                            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option1" checked> 管理员
+                        </label>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="form-group">
-            <div class="row">
-                <button class="btn btn-sm btn-primary btn-block" type="submit">登录</button>
-                <a class="btn btn-sm btn-primary btn-block" href="signup.jsp">注册为救援者！</a>
+            <div class="form-group">
+                <div class="row">
+                    <button class="btn btn-sm btn-primary btn-block" type="submit">登录</button>
+                    <a class="btn btn-sm btn-primary btn-block" href="signup.jsp">注册为救援者！</a>
+                </div>
             </div>
-        </div>
 
-    </form>
+        </form>
+    </div>
+
 
 </div> <!-- /container -->
 

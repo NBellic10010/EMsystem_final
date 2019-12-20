@@ -32,7 +32,7 @@
 <body>
     <div class="container-fluid main">
         <div class="row">
-            <form class="form-inline" action="/jiuyuan_servlet" method="GET">
+            <form class="form-inline" action="jiuyuan_servlet" method="GET">
                 <div class="row">
                     <div class="form-group">
                         <label>主题：</label>

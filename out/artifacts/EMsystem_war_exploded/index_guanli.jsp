@@ -68,7 +68,9 @@
                 <li><a href="signup.jsp">新增救援者信息</a></li>
             </ul>
             <form class="navbar-form navbar-right">
-                <input type="text" class="form-control" placeholder="Search...">
+                <label>
+                    <input type="text" class="form-control" placeholder="Search...">
+                </label>
             </form>
         </div>
     </div>
@@ -127,25 +129,52 @@
                             <%
                                 if(status) {
                                     %>
-                            <form method="post" action="dispatcher_servlet">
+                            <form method="post" action="#" name="dispatch_Form" id="dispatch_Form">
                                 <input type="hidden" name="mobile" value="<%=g.getDianhua()%>">
                                 <input type="hidden" name="gonghao_value" value="<%=g.getGonghao()%>">
-                                <span><button class="btn btn-default col-sm-2" type="submit">派遣</button></span>
+                                <span><button class="btn btn-default col-sm-4" onclick="dispatch(<%=g.getGonghao()%>)">添加外出任务</button></span>
                             </form>
+                            <!--height:51.2px-->
+
+                            <script>
+                                function dispatch(gonghao) {
+                                    var formObj = document.forms['hiddenform'];
+                                    formObj.style = "height: 51.2px";
+                                    $('x').type = "text";
+                                    $('y').type = "text";
+                                    $("description").type = "text";
+                                    /**
+                                    $.ajax(
+                                        {
+                                            type: 'POST',
+                                            url: "guanli_servlet",
+                                            data: $('#form1').serialize()
+                                        }
+                                    )
+                                     **/
+                                }
+                            </script>
                             <%
                                 }else {
                             %>
                             <form method="post" action="recall_servlet">
                                 <input type="hidden" name="mobile" value="<%=g.getDianhua()%>">
                                 <input type="hidden" name="gonghao_recall" value="<%=g.getGonghao()%>">
-                                <span><button class="btn btn-default col-sm-2" type="submit">召回</button></span>
+                                <span><button class="btn btn-default col-sm-4" type="submit">从外出任务中召回</button></span>
                             </form>
                             <%
                                 }
                             %>
-                            <span><a type="button" class="btn btn-default col-sm-5" href="daiban.jsp?gonghao=<%=g.getGonghao()%>">添加待办事项</a></span>
-                            <span><a type="buttn" class="btn btn-default col-sm-5" href="jiuyuan_refactor.jsp">修改救援员信息</a></span>
+                            <span><a type="button" class="btn btn-default col-sm-4" href="daiban.jsp?gonghao=<%=g.getGonghao()%>">添加待办事项</a></span>
+                            <span><a type="button" class="btn btn-default col-sm-4" href="jiuyuan_refactor.jsp">修改救援员信息</a></span>
                         </td>
+                    </tr>
+                    <tr>
+                        <form method="post" name="hiddenform">
+                            <input type="hidden" name="x" id="x">
+                            <input type="hidden" name="y" id="y">
+                            <input type="hidden" name="description" id="description">
+                        </form>
                     </tr>
                     <%
                         }
