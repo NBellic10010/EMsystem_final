@@ -13,6 +13,8 @@ import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
 
+//任务短信servlet
+//下一级：smsservlet
 @WebServlet(name="dispatcher_serlvet",
         urlPatterns="/dispatcher_servlet")
 public class dispatcher_servlet extends HttpServlet {
