@@ -7,33 +7,673 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7119306f-dc15-4781-bbec-ccb4a9fe98ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EMsystem.eml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EMsystem.userlibraries" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/anchor/anchor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/attachment/attachment.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/attachment/attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/attachment/attachment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/attachment/fileTypeImages/icon_chm.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/attachment/fileTypeImages/icon_default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/attachment/fileTypeImages/icon_doc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/attachment/fileTypeImages/icon_exe.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/attachment/fileTypeImages/icon_jpg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/attachment/fileTypeImages/icon_mp3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/attachment/fileTypeImages/icon_mv.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/attachment/fileTypeImages/icon_pdf.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/attachment/fileTypeImages/icon_ppt.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/attachment/fileTypeImages/icon_psd.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/attachment/fileTypeImages/icon_rar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/attachment/fileTypeImages/icon_txt.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/attachment/fileTypeImages/icon_xls.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/attachment/images/alignicon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/attachment/images/alignicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/attachment/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/attachment/images/file-icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/attachment/images/file-icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/attachment/images/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/attachment/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/attachment/images/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/attachment/images/progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/attachment/images/success.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/attachment/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/background/background.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/background/background.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/background/background.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/background/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/background/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/charts/chart.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/charts/charts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/charts/charts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/charts/charts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/charts/images/charts0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/charts/images/charts1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/charts/images/charts2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/charts/images/charts3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/charts/images/charts4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/charts/images/charts5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/emotion/emotion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/emotion/emotion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/emotion/emotion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/emotion/images/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/emotion/images/bface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/emotion/images/cface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/emotion/images/fface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/emotion/images/jxface2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/emotion/images/neweditor-tab-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/emotion/images/tface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/emotion/images/wface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/emotion/images/yface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/gmap/gmap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/help/help.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/help/help.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/help/help.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/image/image.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/image/image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/image/image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/image/images/alignicon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/image/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/image/images/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/image/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/image/images/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/image/images/progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/image/images/success.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/image/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/insertframe/insertframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/internal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/link/link.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/map/map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/map/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/music/music.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/music/music.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/music/music.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/preview/preview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/scrawl/images/addimg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/scrawl/images/brush.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/scrawl/images/delimg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/scrawl/images/delimgH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/scrawl/images/empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/scrawl/images/emptyH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/scrawl/images/eraser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/scrawl/images/redo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/scrawl/images/redoH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/scrawl/images/scale.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/scrawl/images/scaleH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/scrawl/images/size.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/scrawl/images/undo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/scrawl/images/undoH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/scrawl/scrawl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/scrawl/scrawl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/scrawl/scrawl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/searchreplace/searchreplace.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/searchreplace/searchreplace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/snapscreen/snapscreen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/spechars/spechars.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/spechars/spechars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/table/dragicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/table/edittable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/table/edittable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/table/edittable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/table/edittd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/table/edittip.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/template/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/template/images/bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/template/images/pre0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/template/images/pre1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/template/images/pre2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/template/images/pre3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/template/images/pre4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/template/template.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/template/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/template/template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/video/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/video/images/center_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/video/images/file-icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/video/images/file-icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/video/images/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/video/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/video/images/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/video/images/left_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/video/images/none_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/video/images/progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/video/images/right_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/video/images/success.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/video/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/video/video.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/video/video.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/video/video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/webapp/webapp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/wordimage/fClipboard_ueditor.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/wordimage/imageUploader.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/wordimage/tangram.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/wordimage/wordimage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/dialogs/wordimage/wordimage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/jsp/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/jsp/controller.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/jsp/lib/commons-codec-1.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/jsp/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/jsp/lib/commons-io-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/jsp/lib/json.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/jsp/lib/ueditor-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/lang/en/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/lang/en/images/addimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/lang/en/images/alldeletebtnhoverskin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/lang/en/images/alldeletebtnupskin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/lang/en/images/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/lang/en/images/button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/lang/en/images/copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/lang/en/images/deletedisable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/lang/en/images/deleteenable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/lang/en/images/listbackground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/lang/en/images/localimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/lang/en/images/music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/lang/en/images/rotateleftdisable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/lang/en/images/rotateleftenable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/lang/en/images/rotaterightdisable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/lang/en/images/rotaterightenable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/lang/en/images/upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/lang/zh-cn/images/copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/lang/zh-cn/images/localimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/lang/zh-cn/images/music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/lang/zh-cn/images/upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/lang/zh-cn/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/themes/default/css/ueditor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/themes/default/css/ueditor.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/themes/default/dialogbase.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/themes/default/images/anchor.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/themes/default/images/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/themes/default/images/arrow_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/themes/default/images/arrow_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/themes/default/images/button-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/themes/default/images/cancelbutton.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/themes/default/images/charts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/themes/default/images/cursor_h.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/themes/default/images/cursor_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/themes/default/images/cursor_v.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/themes/default/images/cursor_v.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/themes/default/images/dialog-title-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/themes/default/images/filescan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/themes/default/images/highlighted.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/themes/default/images/icons-all.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/themes/default/images/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/themes/default/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/themes/default/images/loaderror.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/themes/default/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/themes/default/images/lock.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/themes/default/images/neweditor-tab-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/themes/default/images/pagebreak.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/themes/default/images/scale.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/themes/default/images/sortable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/themes/default/images/spacer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/themes/default/images/sparator_v.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/themes/default/images/table-cell-align.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/themes/default/images/tangram-colorpicker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/themes/default/images/toolbar_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/themes/default/images/unhighlighted.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/themes/default/images/upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/themes/default/images/videologo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/themes/default/images/word.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/themes/default/images/wordpaste.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/themes/iframe.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/SyntaxHighlighter/shCore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/SyntaxHighlighter/shCoreDefault.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/codemirror/codemirror.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/codemirror/codemirror.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/highcharts/adapters/mootools-adapter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/highcharts/adapters/mootools-adapter.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/highcharts/adapters/prototype-adapter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/highcharts/adapters/prototype-adapter.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/highcharts/adapters/standalone-framework.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/highcharts/adapters/standalone-framework.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/highcharts/highcharts-more.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/highcharts/highcharts-more.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/highcharts/highcharts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/highcharts/highcharts.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/highcharts/modules/annotations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/highcharts/modules/annotations.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/highcharts/modules/canvas-tools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/highcharts/modules/canvas-tools.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/highcharts/modules/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/highcharts/modules/data.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/highcharts/modules/drilldown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/highcharts/modules/drilldown.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/highcharts/modules/exporting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/highcharts/modules/exporting.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/highcharts/modules/funnel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/highcharts/modules/funnel.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/highcharts/modules/heatmap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/highcharts/modules/heatmap.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/highcharts/modules/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/highcharts/modules/map.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/highcharts/modules/no-data-to-display.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/highcharts/modules/no-data-to-display.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/highcharts/themes/dark-blue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/highcharts/themes/dark-green.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/highcharts/themes/gray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/highcharts/themes/grid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/highcharts/themes/skies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/jquery-1.10.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/jquery-1.10.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/jquery-1.10.2.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/snapscreen/UEditorSnapscreen.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/video-js/font/vjs.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/video-js/font/vjs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/video-js/font/vjs.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/video-js/font/vjs.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/video-js/video-js.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/video-js/video-js.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/video-js/video-js.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/video-js/video.dev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/video-js/video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/webuploader/Uploader.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/webuploader/webuploader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/webuploader/webuploader.custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/webuploader/webuploader.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/webuploader/webuploader.flashonly.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/webuploader/webuploader.flashonly.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/webuploader/webuploader.html5only.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/webuploader/webuploader.html5only.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/webuploader/webuploader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/webuploader/webuploader.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/webuploader/webuploader.withoutimage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/webuploader/webuploader.withoutimage.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/xss.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/zeroclipboard/ZeroClipboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/zeroclipboard/ZeroClipboard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/third-party/zeroclipboard/ZeroClipboard.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/ueditor.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/ueditor.all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/ueditor.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/ueditor.parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/UEditor/utf8-jsp/ueditor.parse.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/META-INF/EMsystem.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/SDKDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/pojo/daiban.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/pojo/gunali.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/pojo/jiuyuan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/pojo/renwu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/servlet/daiban_insert_servlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/servlet/dispatcher_servlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/servlet/guanli_add_servlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/servlet/guanli_refactor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/servlet/guanli_servlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/servlet/jiuyuan_dorefactor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/servlet/jiuyuan_insert_servlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/servlet/jiuyuan_refactor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/servlet/jiuyuan_servlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/servlet/jiuyuan_update_servlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/servlet/loginservlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/servlet/recall_servlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/servlet/renwu_servlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/servlet/search_serlvet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/servlet/sms_servlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/servlet/verify_servlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/toolbean/DbUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/toolbean/RecvMoThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/toolbean/RecvRptThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/toolbean/smsutil/CHttpPost.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/toolbean/smsutil/CheckAddress.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/toolbean/smsutil/ConfigManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/toolbean/smsutil/MO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/toolbean/smsutil/MOS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/toolbean/smsutil/Message.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/toolbean/smsutil/MultiMt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/toolbean/smsutil/RPT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/toolbean/smsutil/RPTS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/toolbean/smsutil/RecvMoThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/toolbean/smsutil/RecvRptThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/toolbean/smsutil/Remains.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/toolbean/smsutil/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/http_cdn.bootcss.com_bootstrap_3.3.7_css_bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/http_cdn.bootcss.com_bootstrap_3.3.7_js_bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/http_cdn.bootcss.com_html5shiv_3.7.3_html5shiv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/http_cdn.bootcss.com_jquery_1.12.4_jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/http_cdn.bootcss.com_jquery_1.12.4_jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/http_cdn.bootcss.com_jquery_1.9.1_jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/http_cdn.bootcss.com_respond.js_1.4.2_respond.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/http_cdn.bootcss.com_twitter-bootstrap_2.3.1_js_bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/http_cdnjs.cloudflare.com_ajax_libs_jquery_1.11.0_jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/http_v3.bootcss.com__assets_css_ie10-viewport-bug-workaround.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/http_v3.bootcss.com__assets_js_ie-emulation-modes-warning.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/http_v3.bootcss.com__assets_js_ie10-viewport-bug-workaround.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/http_v3.bootcss.com__assets_js_ie8-responsive-file-warning.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/http_v3.bootcss.com_assets_css_ie10-viewport-bug-workaround.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/http_v3.bootcss.com_assets_js_ie-emulation-modes-warning.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/http_v3.bootcss.com_assets_js_ie10-viewport-bug-workaround.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/http_v3.bootcss.com_assets_js_ie8-responsive-file-warning.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/http_v3.bootcss.com_assets_js_vendor_holder.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/http_v3.bootcss.com_assets_js_vendor_jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/http_v3.bootcss.com_examples_dashboard_dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/http_v3.bootcss.com_examples_offcanvas_offcanvas.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/http_v3.bootcss.com_examples_offcanvas_offcanvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/http_v3.bootcss.com_examples_signin_signin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/jiuyuan_refactor.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/lib/JavaSmsSdk.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/lib/commons-codec-1.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/lib/dom4j-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/lib/gson-2.2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/lib/httpclient-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/lib/httpcore-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/lib/httpmime-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/lib/json-simple-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.39-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/daiban.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/bootstrap_wysiwyg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/License.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/froala_editor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/froala_editor.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/froala_editor.pkgd.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/froala_editor.pkgd.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/froala_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/froala_style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/plugins.pkgd.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/plugins.pkgd.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/plugins/char_counter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/plugins/char_counter.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/plugins/code_view.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/plugins/code_view.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/plugins/colors.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/plugins/colors.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/plugins/draggable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/plugins/draggable.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/plugins/emoticons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/plugins/emoticons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/plugins/file.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/plugins/file.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/plugins/fullscreen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/plugins/fullscreen.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/plugins/help.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/plugins/help.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/plugins/image.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/plugins/image.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/plugins/image_manager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/plugins/image_manager.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/plugins/line_breaker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/plugins/line_breaker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/plugins/quick_insert.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/plugins/quick_insert.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/plugins/special_characters.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/plugins/special_characters.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/plugins/table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/plugins/table.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/plugins/video.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/plugins/video.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/themes/dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/themes/dark.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/themes/gray.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/themes/gray.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/themes/royal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/themes/royal.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/third_party/embedly.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/third_party/embedly.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/third_party/font_awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/third_party/font_awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/third_party/image_tui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/third_party/image_tui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/third_party/spell_checker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/css/third_party/spell_checker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/editor.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/3rd-party/aviary/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/3rd-party/bootstrap/grid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/3rd-party/bootstrap/lists.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/3rd-party/bootstrap/modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/3rd-party/code-mirror.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/3rd-party/font-awesome-5-css.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/3rd-party/font-awesome-5-js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/3rd-party/jquery/mobile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/3rd-party/jquery/ui_modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/3rd-party/spell-checker/spell-checker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/3rd-party/tui/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/api/get_html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/api/init_destroy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/api/insert_html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/api/live_code_preview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/api/live_content_preview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/api/selection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/buttons/custom_buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/buttons/custom_dropdown.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/buttons/external_button.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/buttons/subscript_superscript.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/events/blur_focus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/events/content_changed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/events/drop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/events/image_removed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/events/initialized_destroy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/file_s3_upload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/image/custom_button.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/image/default_width.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/image/image_styles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/image/insert_base64.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/image_s3_upload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/init_inside_iframe/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/init_inside_iframe/content.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/init_inside_iframe/inline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/init_on_click/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/init_on_click/inline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/init_on_click/two_editors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/initialization/edit_in_popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/initialization/init_on_button.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/initialization/init_on_click.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/initialization/init_on_h1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/initialization/init_on_image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/initialization/init_on_link.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/initialization/initialized_event.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/international/direction_rtl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/international/language.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/international/rtl_ltr_buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/link/custom_validation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/link/link_styles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/link/predefined_links.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/misc/scrollable_container.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/misc/scrollable_container_inline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/paragraph_modes/enter_br.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/paragraph_modes/enter_div.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/paragraph_modes/enter_p.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/paste/attrs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/paste/plain.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/paste/tags.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/plugins/char_counter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/plugins/full_screen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/plugins/line_breaker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/plugins/quick_insert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/popular/disable_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/popular/disable_paragraphs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/popular/full.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/popular/full_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/popular/iframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/popular/init_on_click.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/popular/textarea.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/popular/toolbar_buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/popular/toolbar_inline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/popular/two_instances.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/popular/z_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/popups/colors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/popups/custom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/popups/emoticons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/styling/adjustable_height.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/styling/font_family.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/styling/height.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/styling/inline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/styling/paragraph.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/styling/placeholder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/styling/width.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/table/cell_style.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/table/insert_helper.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/table/nested.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/table/resize.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/table/style.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/themes/dark.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/themes/gray.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/themes/royal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/toolbar/bottom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/toolbar/bottom_offset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/toolbar/buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/toolbar/external.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/toolbar/external_inline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/toolbar/inline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/toolbar/inline_selection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/toolbar/offset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/toolbar/show_selection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/toolbar/sticky.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/typing/keep_format.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/typing/shortcuts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/html/typing/tab.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/img/photo1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/froala_editor.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/froala_editor.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/languages/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/languages/bs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/languages/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/languages/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/languages/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/languages/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/languages/en_ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/languages/en_gb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/languages/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/languages/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/languages/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/languages/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/languages/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/languages/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/languages/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/languages/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/languages/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/languages/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/languages/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/languages/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/languages/ku.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/languages/me.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/languages/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/languages/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/languages/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/languages/pt_br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/languages/pt_pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/languages/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/languages/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/languages/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/languages/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/languages/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/languages/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/languages/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/languages/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/languages/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/languages/zh_cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/languages/zh_tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/plugins.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/plugins/align.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/plugins/char_counter.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/plugins/code_beautifier.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/plugins/code_view.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/plugins/colors.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/plugins/draggable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/plugins/edit_in_popup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/plugins/emoticons.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/plugins/entities.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/plugins/file.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/plugins/font_family.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/plugins/font_size.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/plugins/forms.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/plugins/fullscreen.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/plugins/help.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/plugins/image.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/plugins/image_manager.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/plugins/inline_class.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/plugins/inline_style.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/plugins/line_breaker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/plugins/line_height.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/plugins/link.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/plugins/lists.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/plugins/paragraph_format.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/plugins/paragraph_style.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/plugins/print.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/plugins/quick_insert.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/plugins/quote.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/plugins/save.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/plugins/special_characters.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/plugins/table.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/plugins/url.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/plugins/video.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/plugins/word_paste.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/third_party/embedly.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/third_party/font_awesome.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/third_party/image_tui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/js/third_party/spell_checker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/froala-editor/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/jquery-hotkey.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/sidebar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/start.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/file/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/guanli_refactor.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/image.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/index_guanli.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/index_jiuyuan.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/jiuyuan_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/jiuyuan_refactor.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/resources/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/resources/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/resources/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/resources/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/resources/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/resources/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/resources/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/resources/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/resources/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/resources/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/resources/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/resources/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/resources/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/resources/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/resources/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/resources/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/sidebar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/signup.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/start.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EMsystem/com/SDKDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/pojo/daiban.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/pojo/gunali.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/pojo/jiuyuan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/pojo/renwu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/servlet/daiban_insert_servlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/servlet/dispatcher_servlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/servlet/guanli_add_servlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/servlet/guanli_refactor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/servlet/guanli_servlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/servlet/jiuyuan_dorefactor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/servlet/jiuyuan_insert_servlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/servlet/jiuyuan_refactor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/servlet/jiuyuan_servlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/servlet/jiuyuan_update_servlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/servlet/loginservlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/servlet/recall_servlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/servlet/renwu_servlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/servlet/search_serlvet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/servlet/sms_servlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/servlet/verify_servlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/toolbean/DbUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/toolbean/RecvMoThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/toolbean/RecvRptThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/toolbean/smsutil/CHttpPost.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/toolbean/smsutil/CheckAddress.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/toolbean/smsutil/ConfigManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/toolbean/smsutil/MO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/toolbean/smsutil/MOS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/toolbean/smsutil/Message.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/toolbean/smsutil/MultiMt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/toolbean/smsutil/RPT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/toolbean/smsutil/RPTS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/toolbean/smsutil/RecvMoThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/toolbean/smsutil/RecvRptThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/toolbean/smsutil/Remains.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/toolbean/smsutil/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/servlet/guanli_refactor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/servlet/guanli_refactor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/servlet/jiuyuan_dorefactor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/servlet/jiuyuan_dorefactor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/servlet/loginservlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/servlet/loginservlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/servlet/renwu_servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/servlet/renwu_servlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/toolbean/DbUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/WEB-INF/classes/com/emsys/toolbean/DbUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/index_guanli.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/index_guanli.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/jiuyuan_refactor.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/jiuyuan_refactor.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/start.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EMsystem_war_exploded/start.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/servlet/guanli_refactor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/servlet/guanli_refactor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/servlet/jiuyuan_dorefactor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/servlet/jiuyuan_dorefactor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/servlet/loginservlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/servlet/loginservlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/servlet/renwu_servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/servlet/renwu_servlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/toolbean/DbUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EMsystem/com/emsys/toolbean/DbUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/emsys/servlet/guanli_refactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/emsys/servlet/guanli_refactor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/emsys/servlet/jiuyuan_dorefactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/emsys/servlet/jiuyuan_dorefactor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/emsys/servlet/jiuyuan_update_servlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/emsys/servlet/loginservlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/emsys/servlet/loginservlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/emsys/servlet/renwu_servlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/emsys/servlet/renwu_servlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/emsys/toolbean/DbUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/emsys/toolbean/DbUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index_guanli.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index_guanli.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jiuyuan_refactor.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jiuyuan_refactor.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/start.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/start.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +704,13 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="IgnoredFileRootStore">
@@ -96,7 +742,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$/src" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -230,7 +876,7 @@
       <workItem from="1576641868767" duration="62563000" />
       <workItem from="1576848239985" duration="158000" />
       <workItem from="1576848665194" duration="28000" />
-      <workItem from="1576848732575" duration="40431000" />
+      <workItem from="1576848732575" duration="40717000" />
     </task>
     <task id="LOCAL-00001" summary="ini commit">
       <created>1576673993976</created>
@@ -253,7 +899,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576908214553</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ini commit">
+      <created>1576920953559</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576920953559</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,88 +948,88 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="138" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1576835652710" />
-    <state x="340" y="4" key="CommitChangelistDialog2" timestamp="1576908211646">
+    <state x="340" y="4" key="CommitChangelistDialog2" timestamp="1576920952149">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="340" y="4" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1576908211646" />
-    <state x="592" y="207" key="FileChooserDialogImpl" timestamp="1576908364659">
+    <state x="340" y="4" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1576920952149" />
+    <state x="592" y="207" key="FileChooserDialogImpl" timestamp="1576920965571">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="592" y="207" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1576908364659" />
+    <state x="592" y="207" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1576920965571" />
     <state x="740" y="264" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1576616697173" />
     <state x="603" y="325" width="354" height="174" key="Github.CreateGistDialog" timestamp="1576673314948">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="603" y="325" width="354" height="174" key="Github.CreateGistDialog/0.0.1536.824@0.0.1536.824" timestamp="1576673314948" />
-    <state width="1023" height="183" key="GridCell.Tab.0.bottom" timestamp="1576919151810">
+    <state width="1023" height="183" key="GridCell.Tab.0.bottom" timestamp="1576921283997">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1023" height="183" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576919151810" />
+    <state width="1023" height="183" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576921283997" />
     <state width="1280" height="257" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1576626273774" />
-    <state width="1023" height="183" key="GridCell.Tab.0.center" timestamp="1576919151810">
+    <state width="1023" height="183" key="GridCell.Tab.0.center" timestamp="1576921283997">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1023" height="183" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576919151810" />
+    <state width="1023" height="183" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576921283997" />
     <state width="1280" height="257" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1576626273773" />
-    <state width="1023" height="183" key="GridCell.Tab.0.left" timestamp="1576919151810">
+    <state width="1023" height="183" key="GridCell.Tab.0.left" timestamp="1576921283997">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1023" height="183" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576919151810" />
+    <state width="1023" height="183" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576921283997" />
     <state width="1280" height="257" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1576626273773" />
-    <state width="1023" height="183" key="GridCell.Tab.0.right" timestamp="1576919151810">
+    <state width="1023" height="183" key="GridCell.Tab.0.right" timestamp="1576921283997">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1023" height="183" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576919151810" />
+    <state width="1023" height="183" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576921283997" />
     <state width="1280" height="257" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576626273773" />
-    <state width="1023" height="183" key="GridCell.Tab.1.bottom" timestamp="1576919151811">
+    <state width="1023" height="183" key="GridCell.Tab.1.bottom" timestamp="1576921283997">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1023" height="183" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576919151811" />
+    <state width="1023" height="183" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576921283997" />
     <state width="1280" height="257" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1576626273774" />
-    <state width="1023" height="183" key="GridCell.Tab.1.center" timestamp="1576919151811">
+    <state width="1023" height="183" key="GridCell.Tab.1.center" timestamp="1576921283997">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1023" height="183" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1576919151811" />
+    <state width="1023" height="183" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1576921283997" />
     <state width="1280" height="257" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1576626273774" />
-    <state width="1023" height="183" key="GridCell.Tab.1.left" timestamp="1576919151811">
+    <state width="1023" height="183" key="GridCell.Tab.1.left" timestamp="1576921283997">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1023" height="183" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1576919151811" />
+    <state width="1023" height="183" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1576921283997" />
     <state width="1280" height="257" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1576626273774" />
-    <state width="1023" height="183" key="GridCell.Tab.1.right" timestamp="1576919151811">
+    <state width="1023" height="183" key="GridCell.Tab.1.right" timestamp="1576921283997">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1023" height="183" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1576919151811" />
+    <state width="1023" height="183" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1576921283997" />
     <state width="1280" height="257" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576626273774" />
-    <state width="1023" height="183" key="GridCell.Tab.2.bottom" timestamp="1576919151811">
+    <state width="1023" height="183" key="GridCell.Tab.2.bottom" timestamp="1576921283998">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1023" height="183" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576919151811" />
+    <state width="1023" height="183" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576921283998" />
     <state width="1280" height="257" key="GridCell.Tab.2.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1576626273774" />
-    <state width="1023" height="183" key="GridCell.Tab.2.center" timestamp="1576919151811">
+    <state width="1023" height="183" key="GridCell.Tab.2.center" timestamp="1576921283997">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1023" height="183" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1576919151811" />
+    <state width="1023" height="183" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1576921283997" />
     <state width="1280" height="257" key="GridCell.Tab.2.center/0.0.1920.1050@0.0.1920.1050" timestamp="1576626273774" />
-    <state width="1023" height="183" key="GridCell.Tab.2.left" timestamp="1576919151811">
+    <state width="1023" height="183" key="GridCell.Tab.2.left" timestamp="1576921283997">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1023" height="183" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1576919151811" />
+    <state width="1023" height="183" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1576921283997" />
     <state width="1280" height="257" key="GridCell.Tab.2.left/0.0.1920.1050@0.0.1920.1050" timestamp="1576626273774" />
-    <state width="1023" height="183" key="GridCell.Tab.2.right" timestamp="1576919151811">
+    <state width="1023" height="183" key="GridCell.Tab.2.right" timestamp="1576921283997">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1023" height="183" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1576919151811" />
+    <state width="1023" height="183" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1576921283997" />
     <state width="1280" height="257" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576626273774" />
     <state x="342" y="0" key="SettingsEditor" timestamp="1576897812637">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="342" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1576897812637" />
     <state x="428" y="0" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1576624212062" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1576908432776">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1576921026219">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1576908432776" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1576921026219" />
     <state x="516" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1576848733638">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -390,6 +1043,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1576908341419" />
+    <state x="488" y="203" key="git4idea.merge.GitMergeDialog" timestamp="1576921254169">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="488" y="203" key="git4idea.merge.GitMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1576921254169" />
     <state x="500" y="203" key="git4idea.merge.GitPullDialog" timestamp="1576920939537">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
