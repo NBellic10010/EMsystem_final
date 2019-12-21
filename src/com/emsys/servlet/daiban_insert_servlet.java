@@ -11,9 +11,15 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.sql.SQLException;
 
+//发表待办事项servlet
 @WebServlet(name = "daiban_insert_servlet", urlPatterns = "/daiban_insert_servlet")
 public class daiban_insert_servlet extends HttpServlet {
     @Override
+    //get请求的方法
+    /*
+    *请求转发
+    *
+    */
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         DbUtil db = new DbUtil();
         daiban d = new daiban();
@@ -22,6 +28,7 @@ public class daiban_insert_servlet extends HttpServlet {
         try {
             db.tianjia_daiban(d);
             req.getRequestDispatcher("guanli_servlet").forward(req, resp);
+            
             //转发到管理servlet
         } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
