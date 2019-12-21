@@ -1,5 +1,6 @@
 package com.emsys.pojo;
 
+//代办事项pojo类
 public class daiban {
     private int jiuyuan_gonghao;
     private String neirong;
