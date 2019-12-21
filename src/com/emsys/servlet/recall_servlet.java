@@ -12,6 +12,7 @@ import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
 
+//从任务中召回的servlet
 @WebServlet(name="recall_serlvet",
         urlPatterns="/recall_servlet")
 public class recall_servlet extends HttpServlet {
