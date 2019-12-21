@@ -27,30 +27,29 @@ public class jiuyuan_dorefactor extends HttpServlet {
 
         @Override
         protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-                HttpSession s = req.getSession(false);
+                HttpSession s = req.getSession();
                 DbUtil db = new DbUtil();
-                String gonghao = (String)s.getAttribute("gonghao");
+                jiuyuan g = (jiuyuan) s.getAttribute("id_jiuyuan");
 
-                String xingming = (String)s.getAttribute("xingming_r");
-                String mima = (String)s.getAttribute("mima_r");
-                String danwei = (String)s.getAttribute("danwei_r");
-                String dianhua = (String)s.getAttribute("dianhua_r");
-
+                String xingming = req.getParameter("xingming");
+                //String mima = (String)req.getAttribute("mima_r");
+                String danwei = req.getParameter("danwei");
+                String dianhua = req.getParameter("dianhua");
+                String idnumber = req.getParameter("idnumber");
+                System.out.print("mima:" + g.getMima());
                 //jiuyuan g = new jiuyuan();
                 try {
-                        jiuyuan g = db.chaxun_jiuyuan(Integer.parseInt(gonghao));
-                        if(danwei != "") g.setDanwei(Integer.parseInt(danwei));
-                        if(xingming != "") g.setXingming(xingming);
-                        if(mima != "") g.setMima(mima);
-                        if(dianhua != "") g.setDianhua(dianhua);
+                        if(!danwei.equals("")) g.setDanwei(Integer.parseInt(danwei));
+                        if(!xingming.equals("")) g.setXingming(xingming);
+                        //if(mima != "") g.setMima(mima);
+                        if(!dianhua.equals("")) g.setDianhua(dianhua);
+                        if(!idnumber.equals("")) g.setIdnumber(idnumber);
                         db.xiugai_jiuyuan(g);
-                } catch (ClassNotFoundException e) {
-                        e.printStackTrace();
-                } catch (SQLException e) {
+                } catch (ClassNotFoundException | SQLException e) {
                         e.printStackTrace();
                 }
 
-                resp.sendRedirect("index_jiuyuan.jsp");
+                req.getRequestDispatcher("jiuyuan_servlet").forward(req, resp);
 
         }
 

@@ -13,44 +13,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="http://twitter.github.com/bootstrap/assets/js/google-code-prettify/prettify.css" rel="stylesheet">
-    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
-    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-responsive.min.css" rel="stylesheet">
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" rel="stylesheet">
-    <link href="index.css" rel="stylesheeft">
-    <script src="http://cdn.bootcss.com/jquery/1.9.1/jquery.min.js"></script>
-    <!--键盘事件-->
-    <script src="https://mindmup.s3.amazonaws.com/lib/jquery.hotkeys.js"></script>
-    <script src="http://cdn.bootcss.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
-    <script src="bootstrap-wysiwyg.js"></script>
-    <style>
-        .container-fluid.main {
-            height: 100vh;
-        }
-    </style>
+    <link href="https://cdn.jsdelivr.net/npm/froala-editor@3.0.6/css/froala_editor.pkgd.min.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/froala-editor@3.0.6/js/froala_editor.pkgd.min.js"></script>
+    <link href="file/froala-editor/froala_style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <div class="container-fluid main">
-        <div class="row">
-            <form class="form-inline" action="jiuyuan_servlet" method="GET">
-                <div class="row">
-                    <div class="form-group">
-                        <label>主题：</label>
-                        <input type="text" name="title" id="title" placeholder="主题">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="form-group">
-                       <label>内容</label>
-                        <input type="text" name="content_daiban" id="content_daiban" placeholder="待办事项">
-                    </div>
-                </div>
-                <div class="row">
-                    <button type="submit" class="btn btn-primary">提交</button>
-                    <button type="reset" class="btn btn-primary">重写</button>
-                </div>
-            </form>
-        </div>
-    </div>
+<label>
+    <input type="text" class="fr-text-spaced" name="zhuti" id="zhuti" placeholder="主题：">
+    <input type="hidden" name="neirong" id="neirong">
+</label>
+
+<h3><b>待办事项：</b></h3>
+    <div id="example"></div>
+    <button class="fr-btn" onclick="saveArticle()">提交</button>
+    <script>
+        var editor = new FroalaEditor('#example');
+        function saveArticle(){
+            var h = document.getElementById('edit').froalaEditor('html.get', true);
+            //返回富文本编辑里面的html代码
+            $.ajax({
+                type: 'POST',
+                url: "daiban_insert_servlet",
+                data:{
+                    "zhuti":$("zhuti").val(),
+                    "neirong": h
+                },
+                success: function(data){
+                    if(data.success){
+                        layer.msg("保存成功", {icon: 1, time: 1500},function(){
+                            window.parent.location.reload();
+                        });
+                    }else{
+                        layer.msg("保存失败", {icon: 1, time: 1500},function(){
+                            window.parent.location.reload();
+                        });
+                    }
+                },
+                error:function(data) {
+                    //console.log(data.msg);
+                },
+            });
+        }
+
+    </script>
 </body>
 </html>

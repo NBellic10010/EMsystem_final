@@ -85,5 +85,9 @@
     <orderEntry type="library" name="sweetalert2.all" level="application" />
     <orderEntry type="library" name="sweetalert2" level="application" />
     <orderEntry type="library" name="core" level="application" />
+    <orderEntry type="library" name="codemirror" level="application" />
+    <orderEntry type="library" name="froala_editor.pkgd" level="application" />
+    <orderEntry type="library" name="froala_style" level="application" />
+    <orderEntry type="library" name="xml" level="application" />
   </component>
 </module>

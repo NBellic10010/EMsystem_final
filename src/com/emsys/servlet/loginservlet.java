@@ -40,10 +40,11 @@ public class loginservlet extends HttpServlet {
         String gonghao = request.getParameter("gonghao");
         String mima = request.getParameter("mima");
         String option = request.getParameter("optionsRadios");
+        System.out.println(option);
         if(option.equals("option1")) {
             int gonghao_= Integer.parseInt(gonghao);
             try {
-                gunali g = db.chaxun_guanli(Integer.valueOf(gonghao), mima);
+                gunali g = db.chaxun_guanli(Integer.parseInt(gonghao), mima);
                     s.setAttribute("id_guanli", g);
                     response.sendRedirect("guanli_servlet");
 
@@ -52,8 +53,9 @@ public class loginservlet extends HttpServlet {
             }
         }else if (option.equals("option2")) {
             int gonghao_= Integer.parseInt(gonghao);
+            System.out.println(gonghao);
             try {
-                jiuyuan g = db.chaxun_jiuyuan(Integer.valueOf(gonghao), mima);
+                jiuyuan g = db.chaxun_jiuyuan(Integer.parseInt(gonghao), mima);
                 //System.out.println(g.getGonghao());
                 s.setAttribute("id_jiuyuan", g);
                 response.sendRedirect("jiuyuan_servlet");

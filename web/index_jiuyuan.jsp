@@ -210,7 +210,7 @@
         title: '待办事项#' + ct,
         text: '<%=l_daiban.get(Integer.parseInt(index) - 1).getNeirong()%>',
         confirmButtonText: '完毕'
-      })
+      });
     }
   </script>
 </div>

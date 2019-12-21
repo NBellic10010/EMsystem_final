@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
-
+//救援员注册和添加servlet
 @WebServlet(name = "guanli_add_servlet", urlPatterns = "/guanli_add_servlet")
 public class guanli_add_servlet extends HttpServlet {
     @Override

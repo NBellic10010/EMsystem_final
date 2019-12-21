@@ -67,10 +67,11 @@
                 <li><a href="guanli_servlet">管理面板</a></li>
                 <li><a href="signup.jsp">新增救援者信息</a></li>
             </ul>
-            <form class="navbar-form navbar-right">
+            <form class="navbar-form navbar-right" action="search_servlet">
                 <label>
-                    <input type="text" class="form-control" placeholder="Search...">
+                    <input type="text" class="form-control" placeholder="输入工号或姓名" name="query">
                 </label>
+                <button onclick="search()" type="submit" id="search">查询</button>
             </form>
         </div>
     </div>
@@ -78,7 +79,45 @@
 <form action="index_guanli.jsp" id="dumform">
     <input id="gonghao_dispatch" type="hidden" name="gonghao_dispatch">
 </form>
+<form action="guanli_servlet" id="dumform2">
+    <input id="show" type="hidden" name="show" value="">
+    <input id="gonghao_renwu" type="hidden" name="gonghao_renwu" value="-1">
+</form>
+<script>
+    function search(gonghao) {
 
+    }
+    function dispatch(gonghao) {
+        var form = document.forms['renwuform'];
+        //document.getElementById('gonghao_renwu').setAttribute("value", gonghao);
+        document.getElementById('x').setAttribute('type', 'text');
+        document.getElementById('y').setAttribute('type', 'text');
+        document.getElementById('description').setAttribute('type', 'text');
+        document.getElementById('submit').setAttribute('style', 'visibility: visible');
+        document.getElementById('cancel').setAttribute('style', 'visibility: visible');
+         $.ajax(
+         {
+            type: 'POST',
+            url: "guanli_servlet",
+            data: $('#dumform2').serialize()
+        }
+         );
+    }
+
+    function submit(gonghao) {
+        $.ajax(
+            {
+                url: 'renwu_servlet',
+                type: 'post',
+                data: $('#hiddenform' + gonghao).serialize()
+            }
+        )
+    }
+
+    function cancel(gonghao) {
+
+    }
+</script>
 <div class="container-fluid">
     <div class="row">
         <div class="col-sm-12 main">
@@ -94,8 +133,18 @@
                     <span><h1><b>国家的安全，是我们的责任</b></h1></span>
                 </div>
             </div>
-
             <h2 class="sub-header">Section title</h2>
+
+            <form action="renwu_servlet" method="post" id="renwuform" style="height: 51px">
+                <span class="col-sm-3"><input type="hidden" id="x" name="x" placeholder="任务x坐标"></span>
+                <span class="col-sm-3"><input type="hidden" id="y" name="y" placeholder="任务y坐标"></span>
+                <span class="col-sm-3"><input type="hidden" id="description" name="description" placeholder="任务描述"></span>
+                <span class="col-sm-3">
+                    <button class="col col-sm-6" id="submit" type="submit" style="visibility: hidden">确认</button>
+                    <button class="col col-sm-6" id="cancel" type="button" onclick="cancel()" style="visibility: hidden">取消</button>
+                </span>
+            </form>
+
             <div class="table-responsive">
                 <table class="table table-striped">
                     <thead>
@@ -112,7 +161,50 @@
                     <%
                         ArrayList<jiuyuan> l = (ArrayList<jiuyuan>)request.getAttribute("list");
                         //System.out.println(l.get(0));
+                        if(request.getAttribute("found") != null) {
+                            jiuyuan j = (jiuyuan)request.getAttribute("result");
+                            boolean status = j.getZhuangtai();
+                            String zhuangtai;
+                            if(status) zhuangtai = "空闲";
+                            else zhuangtai = "任务中";
+                    %>
+                    <tr>
+                        <td><%=j.getGonghao()%></td>
+                        <td><%=j.getXingming()%></td>
+                        <td><%=j.getDianhua()%></td>
+                        <td><%=j.getIdnumber()%></td>
+                        <td><%=zhuangtai%></td>
+                        <td>
+                            <%
+                                if(status) {
+                            %>
+                            <form method="post" action="dispatcher_servlet">
+                                <input type="hidden" name="mobile" value="<%=j.getDianhua()%>">
+                                <input type="hidden" name="gonghao_value" value="<%=j.getGonghao()%>">
+                                <span><button class="btn btn-default col-sm-4" onclick="dispatch(<%=j.getGonghao()%>)" type="button">添加外出任务</button></span>
+                            </form>
 
+
+                            <!--height:51.2px-->
+
+
+                            <%
+                            }else {
+                            %>
+                            <form method="post" action="recall_servlet">
+                                <input type="hidden" name="mobile" value="<%=j.getDianhua()%>">
+                                <input type="hidden" name="gonghao_recall" value="<%=j.getGonghao()%>">
+                                <span><button class="btn btn-default col-sm-4" type="submit">从外出任务中召回</button></span>
+                            </form>
+                            <%
+                                }
+                            %>
+                            <span><a type="button" class="btn btn-default col-sm-4" href="daiban.jsp?gonghao=<%=j.getGonghao()%>">添加待办事项</a></span>
+                            <span><a type="button" class="btn btn-default col-sm-4" href="jiuyuan_refactor.jsp">修改救援员信息</a></span>
+                        </td>
+                    </tr>
+                    <%
+                        }else{
                         for(jiuyuan g: l) {
                             boolean status = g.getZhuangtai();
                             String zhuangtai;
@@ -128,32 +220,17 @@
                         <td>
                             <%
                                 if(status) {
-                                    %>
-                            <form method="post" action="#" name="dispatch_Form" id="dispatch_Form">
+                            %>
+                            <form method="post" action="dispatcher_servlet">
                                 <input type="hidden" name="mobile" value="<%=g.getDianhua()%>">
                                 <input type="hidden" name="gonghao_value" value="<%=g.getGonghao()%>">
-                                <span><button class="btn btn-default col-sm-4" onclick="dispatch(<%=g.getGonghao()%>)">添加外出任务</button></span>
+                                <span><button class="btn btn-default col-sm-4" onclick="dispatch(<%=g.getGonghao()%>)" type="button">添加外出任务</button></span>
                             </form>
+
+
                             <!--height:51.2px-->
 
-                            <script>
-                                function dispatch(gonghao) {
-                                    var formObj = document.forms['hiddenform'];
-                                    formObj.style = "height: 51.2px";
-                                    $('x').type = "text";
-                                    $('y').type = "text";
-                                    $("description").type = "text";
-                                    /**
-                                    $.ajax(
-                                        {
-                                            type: 'POST',
-                                            url: "guanli_servlet",
-                                            data: $('#form1').serialize()
-                                        }
-                                    )
-                                     **/
-                                }
-                            </script>
+
                             <%
                                 }else {
                             %>
@@ -169,15 +246,10 @@
                             <span><a type="button" class="btn btn-default col-sm-4" href="jiuyuan_refactor.jsp">修改救援员信息</a></span>
                         </td>
                     </tr>
-                    <tr>
-                        <form method="post" name="hiddenform">
-                            <input type="hidden" name="x" id="x">
-                            <input type="hidden" name="y" id="y">
-                            <input type="hidden" name="description" id="description">
-                        </form>
-                    </tr>
+
                     <%
                         }
+                    }
                     %>
                     </tbody>
                 </table>

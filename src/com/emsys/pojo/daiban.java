@@ -4,6 +4,7 @@ public class daiban {
     private int jiuyuan_gonghao;
     private String neirong;
     private String zhuti;
+    private int daiban_id;
 
     public int getJiuyuan_gonghao() {
         return jiuyuan_gonghao;
@@ -27,5 +28,13 @@ public class daiban {
 
     public void setZhuti(String zhuti) {
         this.zhuti = zhuti;
+    }
+
+    public int getDaiban_id() {
+        return daiban_id;
+    }
+
+    public void setDaiban_id(int daiban_id) {
+        this.daiban_id = daiban_id;
     }
 }

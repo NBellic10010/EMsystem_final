@@ -23,21 +23,22 @@ public class jiuyuan_refactor extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String gonghao = req.getParameter("gonghao");
+        //String gonghao = req.getParameter("gonghao");
         String xingming = req.getParameter("xingming");
-        String mima = req.getParameter("mima");
+        //String mima = req.getParameter("mima");
         String danwei = req.getParameter("danwei");
         String dianhua = req.getParameter("dianhua");
-
+        String idnumber = req.getParameter("id_number");
         HttpSession s = req.getSession(false);
-        assert s != null ? true : false;
+        assert s != null;
         assert true;
 
         //s.setAttribute("gonghao_r", gonghao);
         s.setAttribute("xingming_r", xingming);
-        s.setAttribute("mima_r", mima);
+        //s.setAttribute("mima_r", mima);
         s.setAttribute("danwei_r", danwei);
-        s.setAttribute("dianhua", dianhua);
+        s.setAttribute("dianhua_r", dianhua);
+        s.setAttribute("idnumber_r", idnumber);
 
         resp.sendRedirect("jiuyuan_dorefactor");
     }
