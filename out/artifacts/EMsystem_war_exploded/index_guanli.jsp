@@ -49,7 +49,7 @@
     else{
         d = (gunali)s.getAttribute("id_guanli");
     }
-%>
+    assert d != null;%>
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -84,17 +84,16 @@
     <input id="gonghao_renwu" type="hidden" name="gonghao_renwu" value="-1">
 </form>
 <script>
-    function search(gonghao) {
-
-    }
     function dispatch(gonghao) {
         var form = document.forms['renwuform'];
         //document.getElementById('gonghao_renwu').setAttribute("value", gonghao);
+        form.setAttribute('style', 'height: 51px');
         document.getElementById('x').setAttribute('type', 'text');
         document.getElementById('y').setAttribute('type', 'text');
         document.getElementById('description').setAttribute('type', 'text');
         document.getElementById('submit').setAttribute('style', 'visibility: visible');
         document.getElementById('cancel').setAttribute('style', 'visibility: visible');
+        document.getElementById('jiuyuan_gonghao').setAttribute("value", gonghao);
          $.ajax(
          {
             type: 'POST',
@@ -114,9 +113,18 @@
         )
     }
 
-    function cancel(gonghao) {
-
+    function quxiao() {
+        var form = document.forms['renwuform'];
+        //document.getElementById('gonghao_renwu').setAttribute("value", gonghao);
+        form.setAttribute('style', 'height: 0');
+        document.getElementById('x').setAttribute('type', 'hidden');
+        document.getElementById('y').setAttribute('type', 'hidden');
+        document.getElementById('description').setAttribute('type', 'hidden');
+        document.getElementById('submit').setAttribute('style', 'visibility: hidden');
+        document.getElementById('cancel').setAttribute('style', 'visibility: hidden');
+        document.getElementById('jiuyuan_gonghao').setAttribute("value", '');
     }
+
 </script>
 <div class="container-fluid">
     <div class="row">
@@ -135,25 +143,27 @@
             </div>
             <h2 class="sub-header">Section title</h2>
 
-            <form action="renwu_servlet" method="post" id="renwuform" style="height: 51px">
+            <form action="renwu_servlet" method="post" id="renwuform" style="height: 0">
                 <span class="col-sm-3"><input type="hidden" id="x" name="x" placeholder="任务x坐标"></span>
                 <span class="col-sm-3"><input type="hidden" id="y" name="y" placeholder="任务y坐标"></span>
                 <span class="col-sm-3"><input type="hidden" id="description" name="description" placeholder="任务描述"></span>
+                <input type="hidden" name="jiuyuan_gonghao" id="jiuyuan_gonghao" value="">
                 <span class="col-sm-3">
-                    <button class="col col-sm-6" id="submit" type="submit" style="visibility: hidden">确认</button>
-                    <button class="col col-sm-6" id="cancel" type="button" onclick="cancel()" style="visibility: hidden">取消</button>
+                    <button class="col col-sm-5" id="submit" type="submit" style="visibility: hidden">确认</button>
+                    &nbsp;
+                    <button class="col col-sm-5" id="cancel" type="button" onclick="quxiao()" style="visibility: hidden">取消</button>
                 </span>
             </form>
 
-            <div class="table-responsive">
+            <div class="table-responsive col-lg-12">
                 <table class="table table-striped">
                     <thead>
                     <tr>
                         <td>工号</td>
                         <td>姓名</td>
+                        <td>单位</td>
                         <td>电话</td>
                         <td>身份证号</td>
-                        <td>状态</td>
                         <td>操作</td>
                     </tr>
                     </thead>
@@ -163,87 +173,43 @@
                         //System.out.println(l.get(0));
                         if(request.getAttribute("found") != null) {
                             jiuyuan j = (jiuyuan)request.getAttribute("result");
-                            boolean status = j.getZhuangtai();
-                            String zhuangtai;
-                            if(status) zhuangtai = "空闲";
-                            else zhuangtai = "任务中";
                     %>
                     <tr>
                         <td><%=j.getGonghao()%></td>
                         <td><%=j.getXingming()%></td>
+                        <td><%=j.getDanwei()%></td>
                         <td><%=j.getDianhua()%></td>
                         <td><%=j.getIdnumber()%></td>
-                        <td><%=zhuangtai%></td>
                         <td>
-                            <%
-                                if(status) {
-                            %>
                             <form method="post" action="dispatcher_servlet">
                                 <input type="hidden" name="mobile" value="<%=j.getDianhua()%>">
                                 <input type="hidden" name="gonghao_value" value="<%=j.getGonghao()%>">
                                 <span><button class="btn btn-default col-sm-4" onclick="dispatch(<%=j.getGonghao()%>)" type="button">添加外出任务</button></span>
                             </form>
-
-
                             <!--height:51.2px-->
-
-
-                            <%
-                            }else {
-                            %>
-                            <form method="post" action="recall_servlet">
-                                <input type="hidden" name="mobile" value="<%=j.getDianhua()%>">
-                                <input type="hidden" name="gonghao_recall" value="<%=j.getGonghao()%>">
-                                <span><button class="btn btn-default col-sm-4" type="submit">从外出任务中召回</button></span>
-                            </form>
-                            <%
-                                }
-                            %>
                             <span><a type="button" class="btn btn-default col-sm-4" href="daiban.jsp?gonghao=<%=j.getGonghao()%>">添加待办事项</a></span>
-                            <span><a type="button" class="btn btn-default col-sm-4" href="jiuyuan_refactor.jsp">修改救援员信息</a></span>
+                            <span><a type="button" class="btn btn-default col-sm-4" href="jiuyuan_refactor.jsp?<%System.out.print("gonghao:" + j.getGonghao());%>gonghao=<%=j.getGonghao()%>">修改救援员信息</a></span>
                         </td>
                     </tr>
                     <%
                         }else{
                         for(jiuyuan g: l) {
-                            boolean status = g.getZhuangtai();
-                            String zhuangtai;
-                            if(status) zhuangtai = "空闲";
-                            else zhuangtai = "任务中";
                     %>
                     <tr>
                         <td><%=g.getGonghao()%></td>
                         <td><%=g.getXingming()%></td>
+                        <td><%=g.getDanwei()%></td>
                         <td><%=g.getDianhua()%></td>
                         <td><%=g.getIdnumber()%></td>
-                        <td id="status"><%=zhuangtai%></td>
                         <td>
-                            <%
-                                if(status) {
-                            %>
                             <form method="post" action="dispatcher_servlet">
                                 <input type="hidden" name="mobile" value="<%=g.getDianhua()%>">
                                 <input type="hidden" name="gonghao_value" value="<%=g.getGonghao()%>">
                                 <span><button class="btn btn-default col-sm-4" onclick="dispatch(<%=g.getGonghao()%>)" type="button">添加外出任务</button></span>
                             </form>
 
-
-                            <!--height:51.2px-->
-
-
-                            <%
-                                }else {
-                            %>
-                            <form method="post" action="recall_servlet">
-                                <input type="hidden" name="mobile" value="<%=g.getDianhua()%>">
-                                <input type="hidden" name="gonghao_recall" value="<%=g.getGonghao()%>">
-                                <span><button class="btn btn-default col-sm-4" type="submit">从外出任务中召回</button></span>
-                            </form>
-                            <%
-                                }
-                            %>
                             <span><a type="button" class="btn btn-default col-sm-4" href="daiban.jsp?gonghao=<%=g.getGonghao()%>">添加待办事项</a></span>
-                            <span><a type="button" class="btn btn-default col-sm-4" href="jiuyuan_refactor.jsp">修改救援员信息</a></span>
+                            <span><a type="button" class="btn btn-default col-sm-4" href="jiuyuan_refactor.jsp?gonghao=<%=g.getGonghao()%>">修改救援员信息</a></span>
                         </td>
                     </tr>
 

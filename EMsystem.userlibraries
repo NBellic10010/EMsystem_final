@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="mysql-connector-java-5.1.39-bin">
+    <archive path="C:/Users/ASUS/Desktop/EMsystem_20191218_074631/EMsystem/out/artifacts/EMsystem_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.39-bin.jar" />
+  </library>
+  <library name="mysql-connector-java-5.1.39-bin1">
+    <archive path="C:/Users/ASUS/Desktop/EMsystem_20191218_074631/EMsystem/web/WEB-INF/lib/mysql-connector-java-5.1.39-bin.jar" />
+  </library>
+  <library name="bootstrap">
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_cdn.bootcss.com_bootstrap_3.3.7_css_bootstrap.css" />
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_cdn.bootcss.com_bootstrap_3.3.7_js_bootstrap.js" />
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_cdn.bootcss.com_twitter-bootstrap_2.3.1_js_bootstrap.js" />
+  </library>
+  <library name="bootstrap-combined.no-icons">
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_netdna.bootstrapcdn.com_twitter-bootstrap_2.3.1_css_bootstrap-combined.no-icons.min.css" />
+  </library>
+  <library name="bootstrap-responsive">
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_netdna.bootstrapcdn.com_twitter-bootstrap_2.3.1_css_bootstrap-responsive.min.css" />
+  </library>
+  <library name="core">
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_core-js_2.4.1_core.js" />
+  </library>
+  <library name="dashboard">
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_v3.bootcss.com_examples_dashboard_dashboard.css" />
+  </library>
+  <library name="font-awesome">
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_font-awesome_4.4.0_css_font-awesome.css" />
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_netdna.bootstrapcdn.com_font-awesome_3.0.2_css_font-awesome.css" />
+  </library>
+  <library name="holder">
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_v3.bootcss.com_assets_js_vendor_holder.min.js" />
+  </library>
+  <library name="html5shiv">
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_cdn.bootcss.com_html5shiv_3.7.3_html5shiv.js" />
+  </library>
+  <library name="ie-emulation-modes-warning">
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_v3.bootcss.com__assets_js_ie-emulation-modes-warning.js" />
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_v3.bootcss.com_assets_js_ie-emulation-modes-warning.js" />
+  </library>
+  <library name="ie10-viewport-bug-workaround">
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_v3.bootcss.com__assets_css_ie10-viewport-bug-workaround.css" />
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_v3.bootcss.com__assets_js_ie10-viewport-bug-workaround.js" />
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_v3.bootcss.com_assets_css_ie10-viewport-bug-workaround.css" />
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_v3.bootcss.com_assets_js_ie10-viewport-bug-workaround.js" />
+  </library>
+  <library name="ie8-responsive-file-warning">
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_v3.bootcss.com__assets_js_ie8-responsive-file-warning.js" />
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_v3.bootcss.com_assets_js_ie8-responsive-file-warning.js" />
+  </library>
+  <library name="JavaSmsSdk">
+    <archive path="D:/works/EMsystem/web/WEB-INF/lib/JavaSmsSdk.jar" />
+  </library>
+  <library name="jquery">
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_cdn.bootcss.com_jquery_1.12.4_jquery.js" />
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_cdn.bootcss.com_jquery_1.9.1_jquery.js" />
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_jquery_1.11.0_jquery.js" />
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_v3.bootcss.com_assets_js_vendor_jquery.min.js" />
+  </library>
+  <library name="offcanvas">
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_v3.bootcss.com_examples_offcanvas_offcanvas.css" />
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_v3.bootcss.com_examples_offcanvas_offcanvas.js" />
+  </library>
+  <library name="prettify">
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_twitter.github.com_bootstrap_assets_js_google-code-prettify_prettify.css" />
+  </library>
+  <library name="respond">
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_cdn.bootcss.com_respond.js_1.4.2_respond.js" />
+  </library>
+  <library name="scala-sdk-2.13.1">
+    <archive path="C:/Users/ASUS/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.13.1.jar" />
+    <archive path="C:/Users/ASUS/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.13.1.jar" />
+    <archive path="C:/Users/ASUS/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.13.1-sources.jar" />
+    <archive path="C:/Users/ASUS/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.13.1-sources.jar" />
+  </library>
+  <library name="signin">
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_v3.bootcss.com_examples_signin_signin.css" />
+  </library>
+  <library name="sweetalert2">
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_cdn.bootcss.com_limonte-sweetalert2_8.11.8_sweetalert2.css" />
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_cdn.bootcss.com_limonte-sweetalert2_8.11.8_sweetalert2.js" />
+  </library>
+  <library name="sweetalert2.all">
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_cdn.bootcss.com_limonte-sweetalert2_8.11.8_sweetalert2.all.js" />
+  </library>
+  <library name="codemirror">
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_codemirror_5.25.0_codemirror.css" />
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_codemirror_5.25.0_codemirror.js" />
+  </library>
+  <library name="froala_editor.pkgd">
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_cdn.jsdelivr.net_npm_froala-editor@3.0.6_css_froala_editor.pkgd.css" />
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_cdn.jsdelivr.net_npm_froala-editor@3.0.6_js_froala_editor.pkgd.min.js" />
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_froala-editor_2.6.0_css_froala_editor.pkgd.css" />
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_froala-editor_2.6.0_js_froala_editor.pkgd.min.js" />
+  </library>
+  <library name="froala_style">
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_froala-editor_2.6.0_css_froala_style.css" />
+  </library>
+  <library name="xml">
+    <archive path="C:/Users/ASUS/.IntelliJIdea2019.3/config/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_codemirror_5.25.0_mode_xml_xml.js" />
+  </library>
+</eclipse-userlibraries>
+

@@ -45,8 +45,13 @@ public class loginservlet extends HttpServlet {
             int gonghao_= Integer.parseInt(gonghao);
             try {
                 gunali g = db.chaxun_guanli(Integer.parseInt(gonghao), mima);
+                if(g == null) {
+                    request.setAttribute("errorinfo", "登录失败!");
+                    request.getRequestDispatcher("start.jsp").forward(request, response);
+                }else {
                     s.setAttribute("id_guanli", g);
                     response.sendRedirect("guanli_servlet");
+                }
 
             } catch (ClassNotFoundException | SQLException e) {
                 e.printStackTrace();
@@ -56,9 +61,17 @@ public class loginservlet extends HttpServlet {
             System.out.println(gonghao);
             try {
                 jiuyuan g = db.chaxun_jiuyuan(Integer.parseInt(gonghao), mima);
+                if(g == null) {
+                    request.setAttribute("errorinfo", "登录失败!");
+                    //response.sendRedirect("start.jsp");
+                    request.getRequestDispatcher("start.jsp").forward(request, response);
+                }
                 //System.out.println(g.getGonghao());
-                s.setAttribute("id_jiuyuan", g);
-                response.sendRedirect("jiuyuan_servlet");
+                else {
+                    s.setAttribute("id_jiuyuan", g);
+                    response.sendRedirect("jiuyuan_servlet");
+                }
+
 
             } catch (ClassNotFoundException | SQLException e) {
                 e.printStackTrace();

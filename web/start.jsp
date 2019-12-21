@@ -39,6 +39,13 @@
             background-image: url("https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1592610894,1953140181&fm=15&gp=0.jpg");
         }
     </style>
+    <script src="https://cdn.bootcss.com/limonte-sweetalert2/8.11.8/sweetalert2.all.js"></script>
+    <script src="https://cdn.bootcss.com/limonte-sweetalert2/8.11.8/sweetalert2.all.min.js"></script>
+    <link href="https://cdn.bootcss.com/limonte-sweetalert2/8.11.8/sweetalert2.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/limonte-sweetalert2/8.11.8/sweetalert2.js"></script>
+    <link href="https://cdn.bootcss.com/limonte-sweetalert2/8.11.8/sweetalert2.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/limonte-sweetalert2/8.11.8/sweetalert2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/core.js"></script>
 </head>
 
 <body>
@@ -87,9 +94,26 @@
 
 
 </div> <!-- /container -->
-
+    <%
+        String info = "";
+        if(request.getAttribute("errorinfo") != null) {
+            info += (String)request.getAttribute("errorinfo");
+        }
+        request.removeAttribute("errorinfo");
+    %>
 
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="https://v3.bootcss.com//assets/js/ie10-viewport-bug-workaround.js"></script>
+<script>
+    var info = '<%=info%>';
+    if(info !== '') error();
+    function error() {
+        Swal.fire({
+            icon: 'error',
+            title: '哎呀……',
+            text: '<%=info%>',
+        });
+    }
+</script>
 </body>
 </html>

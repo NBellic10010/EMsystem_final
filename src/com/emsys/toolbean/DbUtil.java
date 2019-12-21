@@ -108,8 +108,8 @@ public class DbUtil {
             g.setMima(rs.getString("mima"));
         }
         ptmt.close();
-        assert g != null;
-        System.out.println("救援员:" + g.getGonghao());
+        //assert g != null;
+        //System.out.println("救援员:" + g.getGonghao());
         return g;
 
     }

@@ -37,7 +37,7 @@ public class guanli_refactor extends HttpServlet {
             e.printStackTrace();
         }
 
-        getServletConfig().getServletContext().getRequestDispatcher("/index_guanli.jsp").forward(req,resp);
+        //getServletConfig().getServletContext().getRequestDispatcher("/index_guanli.jsp").forward(req,resp);
     }
 
     @Override

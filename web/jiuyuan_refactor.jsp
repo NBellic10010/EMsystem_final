@@ -1,10 +1,4 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Administrator
-  Date: 2019/12/17
-  Time: 23:00
-  To change this template use File | Settings | File Templates.
---%>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -60,9 +54,9 @@
 </head>
 <body>
     <div class="container col-sm-offset-5" >
-        修改信息：
         <div class="col col-sm-offset-4 col-sm-5">
             <form class="form-signin" action="jiuyuan_dorefactor" method="GET" role="form" style="position: center">
+                <input type="hidden" id="gonghao" name="gonghao" value="<%=request.getParameter("gonghao")%>">
                 <div class="form-group">
                     <label for="xingming" class="sr-only">姓名</label>
                     <input type="text" id="xingming" class="form-control" name="xingming" placeholder="姓名" >
