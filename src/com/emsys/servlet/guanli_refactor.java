@@ -12,6 +12,8 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.sql.SQLException;
 
+//修改管理员servlet
+//
 @WebServlet(name = "guanli_refactor", urlPatterns = "/guanli_refactor")
 public class guanli_refactor extends HttpServlet {
     private static final long serialVersionUID = 1L;
