@@ -1,5 +1,6 @@
 package com.emsys.pojo;
 
+//任务Pojo类
 public class renwu {
     private String miaoshu;
     private double x;
