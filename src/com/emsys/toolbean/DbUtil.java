@@ -10,23 +10,29 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DbUtil {
+    //数据库url
     public static final String URL = "jdbc:mysql://localhost:3306/emd";
+    //用户名root
     public static final String USER = "root";
+    //密码默认为空
     public static final String PASSWORD = "";
     private Connection conn;
     {
         try {
+            //驱动类
             Class.forName("com.mysql.jdbc.Driver");
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
         try {
+            //数据库连接对象初始化
             this.conn = DriverManager.getConnection(URL, USER, PASSWORD);
         } catch (SQLException e) {
             e.printStackTrace();
         }
     }
-
+    
+    //查询所有救援员
     public List<jiuyuan> suoyou_jiuyuan() throws ClassNotFoundException, SQLException {
         Statement stmt = this.conn.createStatement();
         ResultSet rs = stmt.executeQuery("SELECT * FROM jiuyuan");
@@ -45,7 +51,8 @@ public class DbUtil {
         }
         return res;
     }
-
+    
+    //根据名字查询救援员
     public jiuyuan chaxun_jiuyuan(String name) throws ClassNotFoundException, SQLException {
         Statement stmt = this.conn.createStatement();
         String sql = "SELECT * FROM jiuyuan where xingming=?";
@@ -65,7 +72,8 @@ public class DbUtil {
         ptmt.close();
         return g;
     }
-
+    
+    //根据工号查询救援员
     public jiuyuan chaxun_jiuyuan(int gonghao) throws ClassNotFoundException, SQLException {
         Statement stmt = this.conn.createStatement();
         String sql = "SELECT * FROM jiuyuan where gonghao=?";
@@ -87,6 +95,7 @@ public class DbUtil {
         return g;
     }
 
+    
     public jiuyuan chaxun_jiuyuan(int gonghao, String mima) throws ClassNotFoundException, SQLException {
         //Statement stmt = this.conn.createStatement();
         String sql = "SELECT * FROM jiuyuan where gonghao=? and mima=?";
@@ -113,7 +122,8 @@ public class DbUtil {
         return g;
 
     }
-
+    
+    //根据名字查询管理员
     public gunali chaxun_guanli(String name) throws ClassNotFoundException, SQLException {
         Statement stmt = this.conn.createStatement();
         String sql = "SELECT * FROM guanli where name=?";
@@ -130,7 +140,8 @@ public class DbUtil {
         ptmt.close();
         return g;
     }
-
+    
+    
     public gunali chaxun_guanli(int gonghao, String password) throws ClassNotFoundException, SQLException {
         Statement stmt = this.conn.createStatement();
         String sql = "SELECT * FROM guanli where gonghao=? and mima=?";
