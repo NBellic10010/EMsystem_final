@@ -13,6 +13,7 @@ import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
 
+//管理员登录servlet
 @WebServlet(name = "guanli_servlet", urlPatterns = "/guanli_servlet")
 public class guanli_servlet extends HttpServlet {
     @Override
