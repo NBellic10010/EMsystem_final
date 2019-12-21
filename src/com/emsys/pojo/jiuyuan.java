@@ -1,5 +1,5 @@
 package com.emsys.pojo;
-
+//救援员pojo类
 public class jiuyuan {
     private int gonghao;
     private String xingming;
