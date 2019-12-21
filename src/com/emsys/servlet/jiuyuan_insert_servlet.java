@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.sql.SQLException;
 
+//添加救援servlet
 @WebServlet(name = "jiuyuan_insert_servlet", urlPatterns = "/jiuyuan_insert_servlet")
 public class jiuyuan_insert_servlet extends HttpServlet {
     @Override
