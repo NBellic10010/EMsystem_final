@@ -1,5 +1,6 @@
 package com.emsys.pojo;
 
+//管理员pojo类
 public class gunali {
     private int gonghao;
     private String mima;
