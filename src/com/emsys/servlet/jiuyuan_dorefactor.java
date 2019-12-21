@@ -13,6 +13,7 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.sql.SQLException;
 
+//修改救援信息
 @WebServlet(name = "jiuyuan_dorefactor", urlPatterns = "/jiuyuan_dorefactor")
 public class jiuyuan_dorefactor extends HttpServlet {
         private static final long serialVersionUID = 1L;
@@ -25,6 +26,7 @@ public class jiuyuan_dorefactor extends HttpServlet {
             // TODO Auto-generated constructor stub
         }
 
+        //接受数据只要不为空就执行setter方法
         @Override
         protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
                 HttpSession s = req.getSession();
